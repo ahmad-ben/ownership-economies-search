@@ -5,4 +5,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   base: "ownership-economies-search", // This is the directory name of the repository
+  build: {
+    outDir: "docs"
+  }
 })
